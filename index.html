@@ -17,6 +17,9 @@
     <title>Document</title>
 </head>
 
+
+
+
 <body>
     <header class="header">
         <nav>
@@ -24,20 +27,19 @@
             <ul>
                 <li><a href="">Portfolio</a></li>
                 <li><a href="">Blog</a></li>
-                <li><button class="btn-primary">Hire Me</button></li>
+                <li class="buttons"> <button class="btn-hover color-1">BUTTON</button></li>
             </ul>
         </nav>
         <div class="introduction">
             <div class="heading-point">
                 <h2>Hi, I am</h2>
-                <h1>Mary Hardy</h1>
+                <h1>Rifat Rahman</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur maxime velit vel dolorum incidunt
                     mollitia eaque modi corrupti ex debitis.</p>
                 <div class="nav-btn">
-                    <button class="btn-primary"><span class="icon"><i class="fa-solid fa-download"></i></span>Downlaod
-                        CV</button>
-                    <button class="btn-contact"><span class="icon"><i
-                                class="fa-solid fa-phone"></i></span>Contact</button>
+                    <button class="btn-hover color-1"><span class="icon"><i class="fa-solid fa-download"></i></span>Download CV</button>
+                    <button class="btn-hover color-4"><span class="icon"><i
+                        class="fa-solid fa-phone"></i></span>Contact Me</button>
                 </div>
             </div>
             <div class="image2">
@@ -114,6 +116,8 @@
                         free icons available. Aenean commodo ligula eget dolor.</p>
                 </div>
             </div>
+
+
         </section>
 
         <!-- what i do start -->
@@ -173,8 +177,7 @@
                 </div>
 
             </div>
-            <button class="btn-primary-special"><span class="icon"><i class="fa-solid fa-download"></i></span>Downlaod
-                CV</button>
+            <button class="btn-hover color-7"><span class="icon"><i class="fa-solid fa-download"></i></span>Download CV</button>
         </section>
 
         <!-- my resume end -->
@@ -182,7 +185,7 @@
     <footer>
         <div class="footer-connect">
             <div class="lets-connect">
-                <h2>Lets Connect</h2>
+                <h2>Let’s Connect</h2>
             <p>Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
             <img src="./images/icons/facebook.png" alt="">
             <img src="./images/icons/twitter.png" alt="">
@@ -193,18 +196,24 @@
                 <form class="form" action="/form/submit" method="POST">
                     <div>
                       <label for="surname">Surname</label>
+                      <br>
+                      <br>
                       <input type="text" name="surname" id="surname" placeholder="surname" />
                     </div>
                     <div>
                       <label for="lastname">Last name</label>
+                      <br>
+                      <br>
                       <input type="text" name="lastname" id="lastname" placeholder="lastname" />
                     </div>
-                    <div>
+                    <div class="input-email">
                       <label for="email">Email</label>
-                      <input class="input-email" type="email" name="email" id="email" placeholder="email" />
+                      <br>
+                      <br>
+                      <input type="email" name="email" id="email" placeholder="email" />
                     </div>
                   </form>
-                <button class="btn-primary-footer">Submit</button>
+                  <button class="glow-on-hover" type="button">HOVER ME, THEN SUBMIT ME!</button>
             </div>
         </div>
     </footer>
