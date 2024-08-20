@@ -43,6 +43,7 @@ nav {
     color: #181818;
     font-size: 45px;
     font-weight: 800;
+    
 }
 nav > ul{
     display: flex;
@@ -77,6 +78,7 @@ li > button{
 .heading-point{
     max-width: 500px;
 }
+
 .introduction > h2{
     color: #474747;
     font-size: 30px;
@@ -104,11 +106,15 @@ li > button{
 /*** header style end ***/
 
 /*** main style start ***/
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    /* padding: 0 350px; */
+}
 .about{
-    text-align: center;
-    align-items: center;
-    height: 550px;
-    width: 1140px;
+    /* text-align: center; */
+    /* align-items: center; */
+    padding: 130px;
     margin: 130px 0;
     border-radius: 8px;
     background-color: #FFF8F3;
@@ -123,5 +129,18 @@ li > button{
     color: #474747;
     font-size: 18px;
     text-align: center;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-between;
+}
+.about-info{
+    text-align: center;
+}
+.info-description{
+    color: #757575;
+}
+.info-title{
+    color: #474747;
 }
 /*** main style end ***/
