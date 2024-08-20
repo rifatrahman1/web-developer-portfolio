@@ -5,14 +5,16 @@
     box-sizing: border-box;
 } */
 body {
-    
+
     font-family: "Lato", sans-serif;
     font-family: "Open Sans", sans-serif;
 }
-.orange-text{
+
+.orange-text {
     color: #FD6E0A;
 }
-.btn-primary{
+
+.btn-primary {
     color: #FFFFFF;
     background-color: #FD6E0A;
     border-radius: 5px;
@@ -25,12 +27,13 @@ body {
 /*** common style start ***/
 
 /*** header style start ***/
-.header{
+.header {
     background-color: #FFF8F3;
     background-image: url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: bottom right;
 }
+
 /*** header style end ***/
 
 /*** nav style start ***/
@@ -39,25 +42,31 @@ nav {
     margin: 0px 200px;
     justify-content: space-between;
 }
-.nav-title{
+
+.nav-title {
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6);
     color: #181818;
     font-size: 45px;
     font-weight: 800;
-    
+
 }
-nav > ul{
+
+nav>ul {
     display: flex;
     align-items: center;
 }
-nav > ul > li{
+
+nav>ul>li {
     list-style: none;
     margin-right: 50px;
 }
-li > a{
+
+li>a {
     text-decoration: none;
     color: #474747;
 }
-li > button{
+
+li>button {
     color: #FFFFFF;
     height: 64px;
     width: 150px;
@@ -66,7 +75,7 @@ li > button{
 /*** nav style end ***/
 
 /*** header style start ***/
-.introduction{
+.introduction {
     display: flex;
     background-image: url(../images/developer.png);
     /* height: 100%; */
@@ -75,18 +84,25 @@ li > button{
     padding: 30px 30px 0px 150px;
     justify-content: space-between;
 }
-.heading-point{
+
+.heading-point {
     max-width: 500px;
 }
 
-.introduction > h2{
+.heading-point p {
+    color: #757575;
+}
+
+.introduction>h2 {
     color: #474747;
     font-size: 30px;
 }
-.introduction > h1{
+
+.introduction>h1 {
     color: #181818;
 }
-.nav-btn > .btn-contact{
+
+.nav-btn>.btn-contact {
     color: #FD6E0A;
     background-color: #FFF8F3;
     font-size: 20px;
@@ -95,23 +111,26 @@ li > button{
     border-color: #FD6E0A;
     border-radius: 5px;
 }
-.btn-primary > span i {
-  padding-right: 10px;
+
+.btn-primary>span i {
+    padding-right: 10px;
 }
-.btn-contact > span i {
-  padding-right: 10px;
-  font-size: 20px;
+
+.btn-contact>span i {
+    padding-right: 10px;
+    font-size: 20px;
 }
 
 /*** header style end ***/
 
 /*** main style start ***/
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
     /* padding: 0 350px; */
 }
-.about{
+
+.about {
     /* text-align: center; */
     /* align-items: center; */
     padding: 130px;
@@ -119,28 +138,203 @@ main{
     border-radius: 8px;
     background-color: #FFF8F3;
 }
-.about-title{
+
+.about-title {
     color: #181818;
     text-align: center;
     font-size: 35px;
     font-weight: 700;
 }
-.about > p{
+
+.about>p {
     color: #474747;
     font-size: 18px;
     text-align: center;
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-between;
 }
-.about-info{
+
+.about-info {
     text-align: center;
 }
-.info-description{
+
+.info-description {
     color: #757575;
 }
-.info-title{
+
+.info-title {
     color: #474747;
 }
+
+/* what i do style start */
+.what-i-do-container{
+    display: flex;
+    gap: 40px;
+}
+.what-i-do {
+    width: 909px;
+    /* text-align: center; */
+    margin-left: 110px;
+    /* padding: 30px;
+    margin: 130px ; */
+}
+
+.what-i-do h3 {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.what-i-do p {
+    color: #474747;
+    font-size: 18px;
+    text-align: center;
+}
+
+.what-i-do-details {
+    height: 377px;
+    width: 280px;
+    padding: 50px;
+    margin: 100px 0 ;
+    box-shadow: 10px 10px 43px -26px rgba(0, 0, 0, 0.73);
+    -webkit-box-shadow: 10px 10px 43px -26px rgba(0, 0, 0, 0.73);
+    -moz-box-shadow: 10px 10px 43px -26px rgba(0, 0, 0, 0.73);
+
+}
+
+.what-i-do-details p {
+    /* max-width: 210px; */
+    line-height: 24px;
+    color: #474747;
+    font-size: 18px;
+    /* text-align: justify; */
+}
+/* what i do style end */
+
+/* my resume start */
+
+.skill-resume{
+    display: flex;
+    margin: 110px 0;
+    gap: 120px;
+}
+
+.section-resume h1{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.my-resume{
+    height: 200px;
+    width: 480px;
+}
+.my-resume h2{
+    color: #474747;
+    font-size: 28px;
+}
+.my-resume h3{
+    color: #474747;
+    font-size: 20px;
+}
+.my-resume h4{
+    color: #474747;
+    font-size: 15px;
+}
+.my-resume p{
+    color: #757575;
+}
+.border{
+    height: 1px;
+    width: 500px;
+    background-color: #757575;
+}
+.btn-primary-special{
+    margin: 0 450px;
+    display: flex;   
+    gap: 20px;
+    color: #FFFFFF;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+/* my resume end */
 /*** main style end ***/
+
+/* footer start */
+.footer-connect{
+    display: flex;
+    margin: 80px 0px;
+    justify-content: space-evenly;
+}
+.lets-connect{
+    width: 500px;
+}
+.lets-connect img{
+    padding-right: 20px;
+}
+.lets-connect p{
+    color: #757575;
+}
+/* .lets-message{
+    width: 500px;
+} */
+
+.lets-connect h2{
+    color: #181818;
+    /* text-align: center; */
+    font-size: 35px;
+    font-weight: 700;
+}
+.btn-primary-footer{
+    color: #FFFFFF;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+.lets-message h2{
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+
+div {
+    margin-bottom: 10px;
+  }
+  input[type=text] {
+    padding: 5px;
+    border: 2px solid #cccccc;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+  }
+  input[type=text]:focus {
+    border-color: #333333;
+  }
+  input[type=submit] {
+    padding: 5px 15px;
+    background: #99e0b2;
+    border: 0 none;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+  }
+  .form input{
+    height: 50px;
+    width: 300px;
+  }
+  .input-email{
+    width: 450px;
+  }
+
+/* footer end */
